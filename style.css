@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  text-align: left;
+  width: 300px;
+}
+th,
+tr:nth-child(even) {
+  background-color: #e4e4e4;
+}
+
+/* th {
+  width: 10px;
+} */
+tr > td:nth-child(1) {
+  width: 30px;
+  text-align: center;
+}
+
+tr > td:nth-child(2) {
+  width: 150px;
+}
